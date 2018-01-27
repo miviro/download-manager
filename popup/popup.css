@@ -1,0 +1,19 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+}
+
+/* GRID LAYOUT */
+* {
+    box-sizing: border-box;
+}
+
+.logo{
+  width: auto;
+  float: left;
+}
+
+.content {
+    width: auto;
+    float: left;
+}
