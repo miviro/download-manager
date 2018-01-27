@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Download Manager",
+  "version": "1.0",
+
+  "description": " A web extension that provides various utilities such as to keep downloading files even when you close your browser. ",
+  "homepage_url": "https://github.com/miviro/download-manager",
+  "icons": {
+    "48": "img/icon-static-48",
+    "96": "img/icon-static-96"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "img/icon-static-48.png",
+    "default_title": "Download Manager",
+    "default_popup": "popup/popup.html"
+  }
+}
