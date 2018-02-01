@@ -1,5 +1,6 @@
-body{
+body {
   font-family: 'Open Sans', sans-serif;
+  color: #666666;
   padding: 5px;
 }
 
@@ -8,7 +9,7 @@ body{
     box-sizing: border-box;
 }
 
-.logo{
+.logo {
   width: auto;
   float: left;
 }
@@ -16,4 +17,15 @@ body{
 .content {
     width: auto;
     float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+#downloads {
+  color: #999999;
+  text-decoration: none;
+}
+
+#title {
+  color: #333333;
 }

@@ -10,15 +10,17 @@
     <div class="logo">
       <img class="download-image" src="../img/icon-static-240x240.png">
     </div>
-
     <div class="content">
       <h1 id="title">Download Manager</h1>
       <script src="popup.js"></script>
       <div id="download-info">
-        <p> No files being downloaded </p>
-        <p id="download-percent"> 0% </p>
-        <p> 0 MB of 0 MB </p>
-        <progress value="0"></progress>
+        <a id="downloads" href="#"> No files being downloaded </a>
+        <br>
+        <br>
+        <div class="download-percent">
+          0% (0 MB of 0 MB)
+        </div>
+        <progress id="progress-bar" value="0"></progress>
       </div>
     </div>
   </body>
