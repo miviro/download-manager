@@ -11,8 +11,23 @@
     "96": "img/icon-static-96"
   },
 
+  "applications": {
+    "gecko": {
+      "id": "download-manager@miviro",
+      "strict_min_version": "42.0"
+    }
+  },
+
+  "background": {
+    "scripts": ["background-script.js"]
+  },
+
+
   "permissions": [
-    "activeTab"
+    "downloads",
+    "nativeMessaging",
+    "downloads.open",
+    "cookies"
   ],
 
   "browser_action": {
