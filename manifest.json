@@ -5,7 +5,7 @@
   "version": "1.0",
 
   "description": " A web extension that provides various utilities such as to keep downloading files even when you close your browser. ",
-  "homepage_url": "https://github.com/miviro/download-manager",
+  "homepage_url": "https://github.com/miviro/download-manager-webext",
   "icons": {
     "48": "img/icon-static-48",
     "96": "img/icon-static-96"
